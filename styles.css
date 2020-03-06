@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: white;
+
+
+}
+
+.sub-nav{
+    margin-left: 50px;
+}
+
+
+.sub-nav a{
+ 
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  margin-bottom: 20px;
+  
+
+ 
+  
+}
+
+.sub-nav a:hover, a:active {
+    border-bottom: 2px solid blueviolet;
+   
+    
+    /*border-image: linear-gradient(-45deg, #ff0, #f0f) ;
+    border-image-slice: 1;*/
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+    4px 4px 15px rgba(0, 0, 0, 0.1);
+
+  
+    
+  }
+
+.sub-nav .student{
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+
+}
+.main-content{
+    display: flex;
+}
+
+
+.container{
+    height: 300px;
+    width:260px ;
+   
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+                 4px 4px 15px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+
+
+.profile-teacher{
+    display: flex;
+    
+   
+   
+}
+
+
+
+.avatar {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  
+
+
+
+  .profile-summary h2,h3{
+      font-size: 13px;
+      margin-top: 5px;
+      margin-left: 10px;
+      
+
+  }
+
+ 
+
+
+  .profile-summary h3{
+    margin-top: -3px ;
+    font-weight: lighter;
+  
+
+}
+
+
+
+.lesson-summary{
+    width: 250px;
+   
+   
+}
+
+.lesson-summary p{
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.learn-btn{
+    text-align: center;
+}
+.btn{
+
+    width: 50%;
+    background: none;
+    border: 2px solid transparent;
+    border-image: linear-gradient(-45deg, #ff0, #f0f) ;
+    border-image-slice: 1;
+    font-size: 13px;
+    color: purple ;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 2px;
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+                 4px 4px 15px rgba(0, 0, 0, 0.1);
+                
+
+    
+   
+
+}
+
+    
+
+
+
+   
+
+/*
+.new-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.container .card{
+    width: 320px;
+    height: 200px;
+    /*margin: 20px;
+    padding: 40px 30px;
+    background:white ;
+    border-radius: 40px;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+                 6px 6px 20px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.container .card:hover{
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.5),
+                inset  6px 6px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.container .card .imgBX{
+   position: relative;
+   text-align: center;
+  
+
+
+}
+
+img{
+  
+    height: 150px;
+    width: 250px;
+}
+
+
+.container .card .imgBX img{
+
+    max-width: 120px;
+   
+
+
+}
+
+.container .card .contentBx{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .card .contentBx h2{
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+.container .card .contentBx a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+                 4px 4px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.container .card .contentBx a:hover{
+    box-shadow: inset -4px -4px 15px rgba(255, 255, 255, 0.5),
+                inset  4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .card a:hover span{
+    display: block;
+    transform: scale(0.98);
+}
+
+.container .card:hover .imgBX,
+.container .card:hover .imgBX{
+   
+    transform: scale(0.98);
+}*/
+
+
+
+
+
+
+
+
+
+
+
